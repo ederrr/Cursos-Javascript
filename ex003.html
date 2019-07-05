@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    
+        body {
+            background-color: rgb(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(255, 212, 22);
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Aprendendo Javascript!</p>
+
+    <script>
+ 
+        var n1 = prompt('Digite um número:')
+        var n2 = prompt('Digite outro número:')
+        soma = Number.parseInt(n1) + Number.parseInt(n2)
+        //alert('A soma é '+soma)
+        alert(`A soma entre ${n1} e ${n2} é ${soma}`)
+
+
+        //podemos utilizar apenas Number() e o número é convertido em inteiro ou Float, conforme necessário
+        //tambem temos String() para converter valores em strings
+
+    </script>
+    
+</body>
+</html>
